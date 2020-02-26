@@ -1,0 +1,15 @@
+{
+  "name": "zfuncs",
+  "version": "1.2.0",
+  "description": "Functions for Zoho CRM",
+  "main": "ZFuncs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artur Tavares",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afterJoseph/zfuncs.git"
+  }
+}
