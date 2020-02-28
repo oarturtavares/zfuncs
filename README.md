@@ -1,3 +1,3 @@
-Functions to use with Zoho CRM
+Functions to use with widgets on Zoho CRM
 
 Author: Artur Tavares

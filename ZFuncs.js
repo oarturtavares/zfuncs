@@ -34,7 +34,7 @@ const pagesGen = n => {
   }
 };
 
-export default class zfuncs {
+class zfuncs {
   constructor(zapikey) {
     this.reqData = zapikey ? { auth_type: 'apikey', zapikey } : { auth_type: 'oauth' };
   }
@@ -80,3 +80,5 @@ export default class zfuncs {
     return checkResponse(await callCrmFunction(this.reqData, 'procurarcontacontacto', arguments[0]));
   }
 }
+
+exports.module = zfuncs;
