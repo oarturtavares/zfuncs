@@ -1,6 +1,6 @@
 {
   "name": "zfuncs",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Functions for Zoho CRM",
   "main": "ZFuncs.js",
   "scripts": {
