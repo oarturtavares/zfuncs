@@ -2,7 +2,7 @@
   "name": "zfuncs",
   "version": "1.3.0",
   "description": "Functions for Zoho CRM",
-  "main": "ZFuncs.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

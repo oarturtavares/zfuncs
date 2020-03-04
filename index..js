@@ -2,7 +2,7 @@ const callCrmFunction = async (reqData, funcName, extraData) => {
   if (extraData) Object.assign(reqData, { arguments: JSON.stringify(extraData) });
   console.log('REQ_DATA:', reqData);
   try {
-    return ZOHO.CRM.FUNCTIONS.execute(funcName, reqData);
+    return await ZOHO.CRM.FUNCTIONS.execute(funcName, reqData);
   } catch (error) {
     throw error;
   }
@@ -81,4 +81,4 @@ class zfuncs {
   }
 }
 
-exports.module = zfuncs;
+module.exports = zfuncs;
